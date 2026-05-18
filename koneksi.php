@@ -1,11 +1,10 @@
 <?php
-$host = "localhost";
-$username = "root";
-$password = "";
-$database = "eat_and_go"; // Ensure this is the correct database name
+$host = "sql201.infinityfree.com";
+$user = "if0_41951238";
+$pass = "PASSWORD vPanel kamu";
+$db   = "if0_41951238_eat_and_go";
 
-// Create connection
-$conn = mysqli_connect($host, $username, $password, $database);
+$conn = mysqli_connect($host, $user, $pass, $db);
 
 // Check connection
 if (!$conn) {
